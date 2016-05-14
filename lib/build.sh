@@ -158,6 +158,10 @@ install_npm() {
   fi
 }
 
+install_grunt() {
+  npm install grunt -g
+}
+
 build_dependencies() {
   restore_cache
 
